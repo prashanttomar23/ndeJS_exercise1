@@ -1,0 +1,92 @@
+.userName{
+    border-color: rgb(0, 183, 255);
+    border-width: 2px;
+    font-size: 25px;
+    width: 25%;
+    
+}
+.username:focus{
+    border-color: rgb(255, 145, 0);
+    border-width: 2px;
+
+}
+.username:hover{
+    border-color: rgb(0, 212, 219);
+    border-width: 2px;
+
+}
+.btn{
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    
+    
+    border-width: 2px;
+    border-color: rgb(0, 174, 255);
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgb(0, 183, 255);
+    border-width: 2px;
+    border-color: rgb(0, 195, 255);
+}
+.tables, .tables tr{
+    
+    border-collapse: collapse;
+    border-color: rgb(0, 72, 78);
+    font-size: 18px;
+    padding: 1% 1%;
+    max-width: 60%;
+    
+    
+}
+.tables  td{
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: rgb(0, 72, 78);
+    font-size: 18px;
+    padding: 5px 5px;
+    width: 50%;
+}
+.editButton{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: rgb(0, 174, 255);
+    padding: 5px 5px;
+    margin-left: 15px;
+    border-collapse: collapse;
+    
+}
+.editButton:hover{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(0, 148, 32);
+    border-width: 1px;
+    border-color: rgb(0, 153, 38);
+    padding: 5px 5px;
+    margin-left: 15px;
+    border-collapse: collapse;
+    
+}
+.deleteButton{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: rgb(0, 174, 255);
+    padding: 5px 5px;
+    margin-left: 15px;
+    border-collapse: collapse;
+    
+}
+.deleteButton:hover{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    border-width: 1px;
+    border-color: rgb(255, 0, 0);
+    padding: 5px 5px;
+    margin-left: 15px;
+    border-collapse: collapse;
+    
+}
